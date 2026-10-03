@@ -76,9 +76,8 @@ footer{text-align:center;color:var(--muted);padding:15px 16px 36px;font-size:.84
 
 <section class="card">
 <h2>🛡️ Como funciona a segurança</h2>
-<p>O site é estático: não há conta, banco de dados, API ou envio do palpite para um servidor. O segredo é criado pelo navegador com <code>crypto.getRandomValues()</code> e o compromisso usa SHA-256.</p>
-<p>O <strong>recibo publicado no grupo</strong> é a referência de prazo. O horário mostrado pelo próprio site vem do aparelho e pode ser manipulado; por isso, para decidir se alguém registrou até 23:59, vale o horário da mensagem no WhatsApp ou no canal escolhido pelo grupo.</p>
-<p class="hint">Importante: o bloqueio por horário desta página é uma conveniência de interface, não uma autoridade de tempo. Uma pessoa tecnicamente habilidosa pode alterar seu relógio ou o código local, mas não consegue mudar retroativamente o hash que já publicou no grupo.</p>
+<p>Não há conta, banco de dados, API ou envio do palpite para um servidor. O segredo é criado pelo navegador com <code>crypto.getRandomValues()</code> e o compromisso usa SHA-256.</p>
+<p><strong>Depois de registrar, gere o recibo e encaminhe aos interessados antes do prazo.</strong> Esse recibo permite conferir depois que o palpite revelado corresponde exatamente ao registro feito anteriormente.</p>
 </section>
 </main>
 <footer>Commit-reveal • processamento local • sem armazenamento de palpites no site</footer>
